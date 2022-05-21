@@ -32,5 +32,7 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
     split(input) {
+      var splitArray = input.split(" ");
+      return splitArray;
     }
 }
