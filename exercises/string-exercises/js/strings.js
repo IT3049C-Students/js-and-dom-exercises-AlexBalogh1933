@@ -7,8 +7,9 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
-      return input; 
+      return input.toUpperCase(); 
     }
+
     /**
      * Returns a reversed string. Example: "abc" => "cba"
      * @param {string} input - the string input to be processed 
@@ -17,8 +18,8 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return input;
     }
+
     /**
      * Returns an array of the words in a string
      * @param {string} input - the string input to be processed
@@ -27,6 +28,9 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
     split(input) { 
+      function splitString(input, splitAt = ',') {
+        return input.split(",");
+      }
       return [input];
     }
 }
