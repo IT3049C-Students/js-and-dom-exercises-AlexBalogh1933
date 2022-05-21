@@ -18,6 +18,10 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
+      var splitString = input.split("");
+      var reverseArray = splitString.reverse();
+      var joinArray = reverseArray.join("");
+      return joinArray;
     }
 
     /**
@@ -27,10 +31,6 @@ class StringFunctions {
      * @example
      * words('hello world') // ['hello', 'world']
      */
-    split(input) { 
-      function splitString(input, splitAt = ',') {
-        return input.split(",");
-      }
-      return [input];
+    split(input) {
     }
 }
