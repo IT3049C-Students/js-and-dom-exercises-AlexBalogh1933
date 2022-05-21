@@ -1,0 +1,32 @@
+{
+  "name": "js-and-dom-exercises",
+  "version": "1.0.0",
+  "description": "assignment template",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -c-1",
+    "cypress:open": "cypress open",
+    "test:unit": "jest ./exercises",
+    "test:unit:string": "jest ./exercises/string-exercises",
+    "test:unit:array": "jest ./exercises/array-exercises",
+    "test:integration": "cypress run -q",
+    "test": "npm run test:unit && npm run test:integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT3049C/JS-and-DOM-Exercises.git"
+  },
+  "author": "Yahya Gilany <yahya.gilany@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IT3049C/JS-and-DOM-Exercises/issues"
+  },
+  "homepage": "https://github.com/IT3049C/JS-and-DOM-Exercises#readme",
+  "dependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "@testing-library/dom": "^8.11.2",
+    "cypress": "^9.3.1",
+    "jest": "^27.4.7",
+    "rewire": "^6.0.0"
+  }
+}
