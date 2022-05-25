@@ -18,4 +18,4 @@ how many points out of 20 do you deserve on this assignment:
 <!-- What did you learn that you found interesting -->
 It was cool to see everything work while making it. Cypress was also kind of cool and how it tested everything
 ### How long it took you to finish this?
-3 hours
+3.5 hours
