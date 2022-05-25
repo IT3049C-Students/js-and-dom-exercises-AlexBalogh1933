@@ -20,8 +20,12 @@ class ArrayFunctions {
    */
   sum(arr) {
     // Hint: use the reduce method
-    return ;
+    let sumArr = arr.reduce(function (previousValue, currentValue){
+      return previousValue + currentValue;
+    });
+    return sumArr
   }
+
 
   /**
    * Filter: Should filter out all instances of a value from an array
