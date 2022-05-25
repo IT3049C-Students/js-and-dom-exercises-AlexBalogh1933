@@ -37,7 +37,8 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
-    return ;
+    const filterArray = arr.filter((num) => num != item);
+    return filterArray;
   }
 
   /**
